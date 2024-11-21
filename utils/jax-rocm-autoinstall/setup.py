@@ -42,6 +42,6 @@ setup(
     authors=[{"name": "Filippo Vicentini", "email": "filippovicentini@gmail.com"}],
     readme="README.md",
     requires_python=">=3.10",
-    packages=[]#find_packages(),
+    packages=[],#find_packages(),
     install_requires=rocm_dependencies,
 )
