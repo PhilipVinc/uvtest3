@@ -26,5 +26,5 @@ netket_checkpoint = { workspace = true }
 deepnets = { workspace = true }
 
 [tool.uv.workspace]
-members = ["packages/*", "utils/*", "external/netket"]
-exclude = ["utils/jax-rocm-autoinstall"]
+members = ["packages/*", "external/netket"]
+#exclude = ["utils/jax-rocm-autoinstall"]
